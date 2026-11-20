@@ -1,0 +1,6 @@
+job_id,title,company,location,employment_type,content_score,collaborative_score,graph_score,hybrid_score
+444,Data Engineer,Traackr,United States,Full-time,1.0,0.16976180494887722,0.34877976300506097,0.6206844940856754
+155,Generative AI Solution Consultant,The Hartford,"Charlotte, NC",Full-time,0.5648792194580009,1.0,0.012862930794718824,0.5850121958879442
+63,Machine Learning Engineer,RADAR,San Diego Metropolitan Area,Full-time,0.6845971717942457,0.24054106756712257,0.7958621286434086,0.5736333318959413
+1,Machine Learning Engineering Internship - Summer 2026,Viant Technology,"Irvine, CA",Internship,0.7314624570902374,0.0,0.948910412591273,0.5555133110633733
+311,Data Engineer Intern - Tampa (Hybrid) - $20./hr,Confidential,Greater Tampa Bay Area,Temporary,0.6359348840425723,0.5,0.39499437083458067,0.5469663161882024
