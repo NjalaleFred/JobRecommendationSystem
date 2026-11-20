@@ -24,6 +24,7 @@ st.set_page_config(
 # GLOBAL APPLICATION STYLING
 # ==========================================
 
+
 st.markdown("""
 <style>
 
@@ -36,7 +37,7 @@ st.markdown("""
 
 /* Main content area */
 .block-container {
-    max-width: 1450px;
+    max-width: 100% !important;
     padding-top: 2.5rem !important;
     padding-bottom: 2rem !important;
     padding-left: 2.5rem !important;
@@ -53,17 +54,8 @@ header[data-testid="stHeader"] {
 section[data-testid="stSidebar"] {
     background-color: #FFFFFF;
     border-right: 1px solid #E5EAF2;
-    min-width: 245px !important;
-    max-width: 245px !important;
-    width: 245px !important;
-    transform: none !important;
-}
-
-/* Hide sidebar collapse/minimize button */
-[data-testid="stSidebarCollapseButton"],
-button[data-testid="stSidebarCollapseButton"],
-[data-testid="stSidebar"] button[kind="header"] {
-    display: none !important;
+    min-width: 245px;
+    max-width: 245px;
 }
 
 /* Sidebar content spacing */
@@ -165,7 +157,7 @@ p, li, label {
     border-radius: 10px;
 }
 
-/* Job recommendation cards / bordered containers */
+/* Job recommendation cards */
 [data-testid="stVerticalBlockBorderWrapper"] {
     background-color: #FFFFFF;
     border: 1px solid #E2E8F0;
@@ -189,7 +181,7 @@ hr {
     font-size: 0.78rem !important;
 }
 
-/* Responsive spacing on smaller screens */
+/* Responsive spacing */
 @media (max-width: 900px) {
     .block-container {
         padding-left: 1rem !important;
